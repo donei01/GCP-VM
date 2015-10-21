@@ -47,3 +47,6 @@ Create a directory for MongoDB and then run the MongoDB service in the backgroun
 sudo mkdir $HOME/db ; sudo mongod --dbpath $HOME/db --port 80 --fork \
 --logpath /var/tmp/mongodb
 After you enter the final command, click Done and then confirm that you want to leave the page to close the SSH browser window.
+
+Install KWRITE (text editor) 
+sudo apt-get install kwrite
